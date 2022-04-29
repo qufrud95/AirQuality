@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable bg_bad
+drawable bg_good
+drawable bg_soso
+drawable bg_worst
+drawable ic_launcher
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable icon_refresh
+drawable iocn_thunder
+id btn_refresh
+id check_time
+id guideline1
+id guideline2
+id guideline3
+id guideline4
+id ima_bg
+id tv_check_time
+id tv_count
+id tv_location_subtitle
+id tv_location_title
+id tv_title
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.AirQuality
