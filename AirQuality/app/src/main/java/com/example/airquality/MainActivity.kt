@@ -11,6 +11,8 @@ import android.location.LocationManager
 import android.os.Bundle
 import android.provider.Settings
 import android.widget.Toast
+import androidx.activity.result.ActivityResult
+import androidx.activity.result.ActivityResultCallback
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
@@ -32,6 +34,10 @@ import java.time.format.DateTimeFormatter
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+
+    var latitude: Double =0.0
+    var longitude:Double = 0.0
+
     lateinit var binding: ActivityMainBinding
 
     // 런타임 권한 요청시 필요한 요청 코드입니다.
@@ -46,6 +52,17 @@ class MainActivity : AppCompatActivity() {
     // 위도와 경도를 가져올 때 필요합니다.
     lateinit var locationProvider: LocationProvider
 
+    val startMapActivityResult =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult(), object : ActivityResultCallback<ActivityResult> {
+            override fun onActivityResult(result: ActivityResult?) {
+                if (result?.resultCode ?: Activity.RESULT_CANCELED == Activity.RESULT_OK) {
+                    latitude = result?.data?.getDoubleExtra("latitude", 0.0) ?: 0.0
+                    longitude = result?.data?.getDoubleExtra("longitude", 0.0) ?: 0.0
+                    updateUI()
+                }
+            }
+        })
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -54,6 +71,16 @@ class MainActivity : AppCompatActivity() {
         checkAllPermissions()
         updateUI()
         setRefreshButton()
+        setFab()
+    }
+
+    private fun setFab() {
+        binding.fab.setOnClickListener{
+            val intent = Intent(this,MapActivity::class.java)
+            intent.putExtra("currentLat",latitude)
+            intent.putExtra("currentLng",longitude)
+            startMapActivityResult.launch(intent)
+        }
     }
 
     private fun setRefreshButton() {
@@ -66,8 +93,11 @@ class MainActivity : AppCompatActivity() {
         locationProvider = LocationProvider(this@MainActivity)
 
         //위도와 경도 정보를 가져옵니다.
-        val latitude: Double = locationProvider.getLocationLatitude()
-        val longitude: Double = locationProvider.getLocationLongitude()
+        if(latitude == 0.0 || longitude == 0.0){
+            val latitude: Double = locationProvider.getLocationLatitude()
+            val longitude: Double = locationProvider.getLocationLongitude()
+
+        }
 
         if (latitude != 0.0 || longitude != 0.0) {
 

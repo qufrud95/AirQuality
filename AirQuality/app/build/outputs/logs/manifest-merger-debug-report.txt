@@ -1,15 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/chagyeongjun/.gradle/caches/transforms-3/1b77d52d4cb4929405e94e0f5cf6916f/transformed/viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/chagyeongjun/.gradle/caches/transforms-3/4147400eff6702c02d16411b60229314/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/chagyeongjun/.gradle/caches/transforms-3/f854b8150f3a2be00b0f64794eacce62/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/chagyeongjun/.gradle/caches/transforms-3/95155ec7379d2e86f014dafbf884f0e9/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/chagyeongjun/.gradle/caches/transforms-3/a3d74e476ca4beda2efa6f1a34f564a9/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/27cebe4af60049c72fb60d13e8868f57/transformed/play-services-location-19.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/f1b7ce35865bd83a7f1248c99384e502/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/d931c66a1c7f0abf542c1b57154fc5fe/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/49ba45cd065f21355f54a0020dc8f9cc/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/chagyeongjun/.gradle/caches/transforms-3/faeae4273770e152b3c040fbb86cf77c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /Users/chagyeongjun/.gradle/caches/transforms-3/fcfc8c83ce611db69ee2a95521dd1f7f/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/chagyeongjun/.gradle/caches/transforms-3/4408c995760db813712adb423c2e6a60/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
@@ -45,41 +51,55 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/chagyeongjun/.grad
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/efb623b0ce6afdc1a9b8384406759832/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/eeeea5a5940c319cbb29e6aa47bee0bf/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/chagyeongjun/.gradle/caches/transforms-3/4178c39bcaf85541abced1ebcb79b15e/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:6:5-78
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:7:5-80
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
 		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:7:22-78
 application
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:10:5-26:19
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:9:5-32:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/chagyeongjun/.gradle/caches/transforms-3/f854b8150f3a2be00b0f64794eacce62/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/chagyeongjun/.gradle/caches/transforms-3/f854b8150f3a2be00b0f64794eacce62/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/chagyeongjun/.gradle/caches/transforms-3/95155ec7379d2e86f014dafbf884f0e9/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/chagyeongjun/.gradle/caches/transforms-3/95155ec7379d2e86f014dafbf884f0e9/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/27cebe4af60049c72fb60d13e8868f57/transformed/play-services-location-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/27cebe4af60049c72fb60d13e8868f57/transformed/play-services-location-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/d931c66a1c7f0abf542c1b57154fc5fe/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/d931c66a1c7f0abf542c1b57154fc5fe/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/49ba45cd065f21355f54a0020dc8f9cc/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/49ba45cd065f21355f54a0020dc8f9cc/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/c20bf7e1b62e142e5eb52b3bdb4e5297/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/c20bf7e1b62e142e5eb52b3bdb4e5297/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] /Users/chagyeongjun/.gradle/caches/transforms-3/5569570771428b265868d1805759cc49/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
@@ -93,33 +113,45 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/chagyeongjun/.gradle
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/chagyeongjun/.gradle/caches/transforms-3/5569570771428b265868d1805759cc49/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:16:9-48
-activity#com.example.airquality.MainActivity
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:17:9-25:20
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:15:9-48
+activity#com.example.airquality.MapActivity
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:17:13-40
+activity#com.example.airquality.MainActivity
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:19:9-27:20
+	android:exported
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:25:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:29:9-31:71
+	android:value
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:31:13-68
+	android:name
+		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml:30:13-58
 uses-sdk
 INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
@@ -134,8 +166,20 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/chagyeongj
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/chagyeongjun/.gradle/caches/transforms-3/95155ec7379d2e86f014dafbf884f0e9/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/chagyeongjun/.gradle/caches/transforms-3/a3d74e476ca4beda2efa6f1a34f564a9/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/chagyeongjun/.gradle/caches/transforms-3/a3d74e476ca4beda2efa6f1a34f564a9/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/27cebe4af60049c72fb60d13e8868f57/transformed/play-services-location-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/27cebe4af60049c72fb60d13e8868f57/transformed/play-services-location-19.0.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/f1b7ce35865bd83a7f1248c99384e502/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/f1b7ce35865bd83a7f1248c99384e502/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/d931c66a1c7f0abf542c1b57154fc5fe/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/d931c66a1c7f0abf542c1b57154fc5fe/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/49ba45cd065f21355f54a0020dc8f9cc/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/49ba45cd065f21355f54a0020dc8f9cc/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/chagyeongjun/.gradle/caches/transforms-3/faeae4273770e152b3c040fbb86cf77c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /Users/chagyeongjun/.gradle/caches/transforms-3/faeae4273770e152b3c040fbb86cf77c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] /Users/chagyeongjun/.gradle/caches/transforms-3/fcfc8c83ce611db69ee2a95521dd1f7f/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
@@ -216,6 +260,42 @@ INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
 		ADDED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/chagyeongjun/AndroidStudioProjects/AirQuality/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/chagyeongjun/.gradle/caches/transforms-3/b7cf99d1455a494b5833592094b394d4/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/chagyeongjun/.gradle/caches/transforms-3/6a8ff8ee554c94b1bd1afc7015e95bee/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/82157356d093ecc1e18f5253dc4c4f5c/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/chagyeongjun/.gradle/caches/transforms-3/c20bf7e1b62e142e5eb52b3bdb4e5297/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/chagyeongjun/.gradle/caches/transforms-3/c1b31467da5823b7297c035c7f672194/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

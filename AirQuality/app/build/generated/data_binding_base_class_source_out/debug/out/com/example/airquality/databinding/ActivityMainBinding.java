@@ -13,6 +13,7 @@ import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.airquality.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -26,6 +27,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final TextView checkTime;
+
+  @NonNull
+  public final FloatingActionButton fab;
 
   @NonNull
   public final Guideline guideline1;
@@ -58,14 +62,15 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvTitle;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnRefresh,
-      @NonNull TextView checkTime, @NonNull Guideline guideline1, @NonNull Guideline guideline2,
-      @NonNull Guideline guideline3, @NonNull Guideline guideline4, @NonNull ImageView imaBg,
-      @NonNull TextView tvCheckTime, @NonNull TextView tvCount,
+      @NonNull TextView checkTime, @NonNull FloatingActionButton fab, @NonNull Guideline guideline1,
+      @NonNull Guideline guideline2, @NonNull Guideline guideline3, @NonNull Guideline guideline4,
+      @NonNull ImageView imaBg, @NonNull TextView tvCheckTime, @NonNull TextView tvCount,
       @NonNull TextView tvLocationSubtitle, @NonNull TextView tvLocationTitle,
       @NonNull TextView tvTitle) {
     this.rootView = rootView;
     this.btnRefresh = btnRefresh;
     this.checkTime = checkTime;
+    this.fab = fab;
     this.guideline1 = guideline1;
     this.guideline2 = guideline2;
     this.guideline3 = guideline3;
@@ -114,6 +119,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.check_time;
       TextView checkTime = ViewBindings.findChildViewById(rootView, id);
       if (checkTime == null) {
+        break missingId;
+      }
+
+      id = R.id.fab;
+      FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
+      if (fab == null) {
         break missingId;
       }
 
@@ -177,9 +188,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnRefresh, checkTime, guideline1,
-          guideline2, guideline3, guideline4, imaBg, tvCheckTime, tvCount, tvLocationSubtitle,
-          tvLocationTitle, tvTitle);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnRefresh, checkTime, fab,
+          guideline1, guideline2, guideline3, guideline4, imaBg, tvCheckTime, tvCount,
+          tvLocationSubtitle, tvLocationTitle, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
